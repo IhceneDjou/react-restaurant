@@ -1,0 +1,59 @@
+header{
+    background: url("./../../assets/cover1.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+header .row{
+    margin: 60px 0px;
+}
+header h2{
+    color: #184f17;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    width:80%;
+}
+header p{
+    color: #333;
+    font-family: 'Tajawal', sans-serif;
+    margin: 15px 0px;
+}
+
+header button{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 10px 20px 0px;
+    width: 150px;
+    height: 50px;
+    background-color: #40B93C;
+    box-sizing:border-box;
+    border: 1px solid  #40B93C;
+    text-align: center;
+    color: white;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+
+header button:last-of-type{
+background-color: white;
+color:black;
+}
+
+
+header button:first-of-type:hover{
+    background-color: white;
+    color: #40B93C;
+}
+
+header button:last-of-type:hover{
+    background-color: #40B93C;
+    color: white;
+}

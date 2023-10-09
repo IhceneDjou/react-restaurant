@@ -1,0 +1,23 @@
+.imgCaro{
+    
+    border-radius: 70px;
+    width: 130px;
+    height: 130px;
+  
+}
+
+.caro{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px ;
+    height: 350px;
+}
+
+.caro h3{
+    color:#40B93C;
+    font-weight: bold;
+}
+
+.caro p{
+    color: #333;
+}

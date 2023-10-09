@@ -1,0 +1,302 @@
+
+
+.numbers{
+    background-color:#40B93C;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: white;
+    font-family: "Tajawal";
+}
+
+.numbers h6{
+ text-transform: uppercase;
+ color: white;
+ font-family: "Tajawal";
+ font-weight: bold;
+ letter-spacing: 1.5px;
+}
+
+
+/* pride section*/
+
+.pride{
+    background-color:transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+    margin-bottom: 100px;
+
+   
+}
+
+
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+
+
+.pride h2{
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+   
+    color: #236820;
+    font-family: "Tajawal";
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+.pride p{
+ width: 80%;
+ color: #333;
+ font-family: "Tajawal";
+ font-size: 16px;
+ line-height: 28px;
+ margin-top: 15px;
+}
+
+.pride button{
+    background-color: #40B93C;
+    border: 1px solid #40B93C;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s ease;
+    color: white;
+    font-weight: bold;
+}
+
+.pride button a{
+    display: block;
+    color:white;
+    font-family: "Tajawal";
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold; 
+
+}
+
+.pride button a:hover{
+    color:#40B93C;
+    background-color: transparent;
+    
+}
+
+.pride button:hover{
+    background-color: white;
+}
+
+/* made section*/
+
+.made{
+    background-color:transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+   
+}
+
+
+.made img{
+    max-width: 100%;
+}
+
+
+
+.made h2{
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #236820;
+    font-family: "Tajawal";
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+.made p{
+ width: 100%;
+ color: #333;
+ font-family: "Tajawal";
+ font-size: 18px;
+ line-height: 28px;
+ margin-top: 15px;
+}
+
+.made button{
+    background-color: #40B93C;
+    border: 1px solid #40B93C;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s ease;
+}
+
+.made button a{
+    display: block;
+    color:white;
+    font-family: "Tajawal";
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold; 
+
+}
+
+.made button a:hover{
+    color:#40B93C;
+    
+}
+
+.made button:hover{
+    background-color: white;
+}
+.made .checklist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .made .checklist li {
+    position: relative;
+    padding-left: 30px; /* Adjust as needed */
+  }
+.made .checklist li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    color: #80CC28; /* Adjust color as needed */
+  }
+
+  /* barre section*/
+  .barre{
+    background: url("./../../assets/barre2.jpg") ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+ 
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .content{
+    width: 800px;
+    margin: auto;
+  }
+.text{
+    
+    padding-bottom: 60px ;
+    text-align: center;
+}
+  .barre h1, .text h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin: 5px 0px;
+    color: #236820;
+    font-family: "Tajawal";
+    line-height: 50px;
+    padding-top: 100px;
+  }
+
+  .barre p, .text p{
+    color: #333;
+    font-family: "Tajawal";
+    font-size: 20px;
+    line-height: 28px;
+    
+  
+  }
+
+  .barre a{
+    text-decoration: none;
+    color:#80CC28;;
+    font-weight: bold;
+    transition: .5s ease;
+  }
+  .barre a:hover{
+    color: #236820;
+  }
+.food{
+  
+  
+}
+.card{
+    border-radius: 20px;
+    border-color: white !important;
+}
+
+.card button{
+    background-color: #40B93C;
+    color: white;
+    border-color:#40B93C !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card button:hover{
+    background-color: transparent;
+    color: #40B93C;
+}
+.card h4{
+    color: #236820 !important;
+}
+.card h4 span{
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
+
+.tester{
+    margin-top: 100px;
+    background-color:#40B93C ;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    padding-top:60px ;
+    
+}
+.tester h1{
+    font-weight: bold;
+   
+}
+
+
+.email{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.email h1{
+    font-weight: Bold;
+    color:#236820
+}
+.email button{
+    background-color: #40B93C;
+    border: 1px solid #40B93C !important;
+}
+.email button:hover{
+    background-color: transparent;
+   color: #40B93C;
+}
